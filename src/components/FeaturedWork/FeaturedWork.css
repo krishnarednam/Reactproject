@@ -1,0 +1,50 @@
+#work{
+    margin-top: 20px;
+    margin-left: 110px;
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: 400;
+    color:  #21243D;
+}
+#date{
+    display: inline-block;
+    width: 50px;
+    background-color: #142850;
+    border-radius: 20px;
+    color: #ffffff;
+    padding-left: 7px;
+    font-weight: bold;
+}
+
+#category{
+    margin-left: 10px;
+}
+
+.card-body h5{
+    color: #21243D;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+@media (max-width: 480px){
+    #work{
+        margin-top: 20px;
+    }
+    .card{
+        position: relative;
+        left: -30px;
+        height: 300px;
+        width: 300px !important;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    .card img{
+        border: 20px saddlebrown black;
+    }
+    #work{
+        margin-left: 70px;
+    }
+    .card-body h5{
+        font-size: 24px;
+    }
+}

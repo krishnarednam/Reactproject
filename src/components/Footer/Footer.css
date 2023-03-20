@@ -1,0 +1,16 @@
+footer{
+    height: 182px;
+    width: 100%;
+}
+.footer-items{
+    margin: 40px auto;
+}
+footer i{
+    font-size: 30px;
+    padding: 20px;
+    color: #21243D;
+}
+footer p{
+    margin-top: 26px;
+    font-size: 14px;
+}
